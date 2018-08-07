@@ -5,7 +5,7 @@ var newArray = [];
 
 for (i=0; i<myStr.length; i++) {
 		newArray.push(myStr[i].toLowerCase());
-		};
+	};
 
 //loop through the new array (all lowercase strings) and log the first and last character of each string to the console
 
@@ -13,7 +13,7 @@ for (i=0; i<newArray.length; i++) {
 
 	console.log(newArray[i].charAt(0));
 	console.log(newArray[i].charAt(newArray[i].length-1));
-	}
+	};
 
 //create a variable and store your name in it
 var name = "Ekaterina Diatchenko";
